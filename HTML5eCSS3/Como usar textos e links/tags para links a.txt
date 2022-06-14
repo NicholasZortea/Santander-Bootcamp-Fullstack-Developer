@@ -1,0 +1,10 @@
+<a>Link</a>
+
+<a href="link">nome</a>
+<a href="mailto:email">E-mail</a>
+
+<a target="_blank">Link<a/>
+
+o target, server para indicar como o link será aberto
+
+href é o link para o qual queremos apontar
