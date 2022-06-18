@@ -7,4 +7,4 @@
 
 o target, server para indicar como o link será aberto
 
-href é o link para o qual queremos apontar
+href é URL para o qual queremos apontar
