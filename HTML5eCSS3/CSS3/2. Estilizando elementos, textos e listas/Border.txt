@@ -1,0 +1,17 @@
+.post {
+	border: 3px solid blue;
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+}
+
+.post {
+	border: 3px solid #505050;
+}
+
+==
+
+.post {
+	border-width: 3px;
+	border-color: #505050;
+	border-style: solid;
+}

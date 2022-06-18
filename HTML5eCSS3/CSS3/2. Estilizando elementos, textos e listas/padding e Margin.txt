@@ -1,0 +1,14 @@
+.post {
+	padding: 15px 10px 5px 0;
+}
+15 pixels para o topo
+10 pixels para o lado direito
+5 pixels para baixo
+0 pixels para o lado esquerdo
+
+.post {
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
