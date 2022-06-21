@@ -1,6 +1,8 @@
 body {
     background: rgb(187, 182, 182);
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo {
@@ -41,10 +43,12 @@ a {
     margin: 0px;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: left;
 }
 
 .post_image {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .contacts_list {
