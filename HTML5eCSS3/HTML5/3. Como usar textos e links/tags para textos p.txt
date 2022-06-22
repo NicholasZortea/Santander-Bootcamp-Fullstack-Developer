@@ -1,1 +1,0 @@
-<p> usamos o elemento "<p>" para textos e parágrafos mais densos ele representa um parágrafo, no entanto, não podemos usar somente texto, ele suporta links, imagens entre outros

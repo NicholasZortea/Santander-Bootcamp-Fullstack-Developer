@@ -1,7 +1,0 @@
-#title {
-	font-size: 30px;
-}
-
-.post_title {
-font-size: 18px;
-}

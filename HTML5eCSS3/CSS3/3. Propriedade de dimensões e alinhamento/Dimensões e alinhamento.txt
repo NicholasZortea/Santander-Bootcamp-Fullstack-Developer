@@ -1,9 +1,0 @@
-Width -> largura
-height -> altura
-
-Max-width -> largura máxima que os elementod podem ter
-Max-height -> altura máxima que os elementos podem ter
-
-Margin -> alinhamento (espaçamento entre elementos) possui valor auto
-
-Text align -> alinha textos (left, right, center...)

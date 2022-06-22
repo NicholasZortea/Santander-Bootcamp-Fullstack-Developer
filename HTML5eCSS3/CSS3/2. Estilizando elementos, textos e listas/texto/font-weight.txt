@@ -1,7 +1,0 @@
-#title {
-	font-weight: normal;
-}
-
-.subtitle {
-	font-weight: bold;
-}

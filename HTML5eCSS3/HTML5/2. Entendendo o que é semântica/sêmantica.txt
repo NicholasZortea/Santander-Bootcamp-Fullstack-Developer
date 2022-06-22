@@ -1,6 +1,0 @@
-<section> seção genérica de conteúdo
-<header> cabeçalho ou parte de uma página
-<article> representa um conteúdo relevante
-<aside> conteúdo relacionada com o conteúdo principal
-<footer> rodapé
-<h1>-<h6> títulos (h1 mais importante, h6 menos importante)

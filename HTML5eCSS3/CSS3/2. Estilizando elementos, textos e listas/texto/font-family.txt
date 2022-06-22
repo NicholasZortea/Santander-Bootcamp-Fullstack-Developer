@@ -1,7 +1,0 @@
-# title {
-	font-family: Verdana;
-}
-
-.post-title {
-	font-family: Verdana, Arial;
-}

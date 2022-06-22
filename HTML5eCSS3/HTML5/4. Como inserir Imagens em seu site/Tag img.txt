@@ -1,6 +1,0 @@
-<img>
-
-<img src="img/avatar.jpg"> Obrigatório indica o caminho da imagem
-
-<img alt="text/descrição da imagem"> Elemento opcional mas altamente indicado que seja usado a fim de facilitar a acessibilidade dos usuários.
-
