@@ -1,0 +1,14 @@
+id é representado por um "#"
+classe por um "."
+
+Ex:
+.header {
+	padding: 10 px;
+}
+
+#header {
+	padding: 15 px;
+}
+
+
+Id's só podem ser usados uma vez na página

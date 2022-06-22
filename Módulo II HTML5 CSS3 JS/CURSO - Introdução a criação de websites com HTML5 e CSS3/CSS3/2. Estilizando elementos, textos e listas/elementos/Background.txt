@@ -1,0 +1,5 @@
+.post {
+	background-color: green;
+	background-color: #008800;
+	background: #008800;
+}
