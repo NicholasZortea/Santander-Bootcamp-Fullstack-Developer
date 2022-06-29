@@ -1,0 +1,2 @@
+display: flex
+torna a tag um elemento do tipo flex container, todos os seus filhos diretos desta tag, tornam-se flex items.
