@@ -1,0 +1,2 @@
+é um atalho para as propriedades flex-direction e flex-wrap.
+
