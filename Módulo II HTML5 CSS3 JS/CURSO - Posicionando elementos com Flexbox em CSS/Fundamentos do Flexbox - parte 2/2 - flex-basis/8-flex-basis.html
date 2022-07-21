@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamento - flex-basis</title>
+</head>
+
+    <style>
+
+        .container{
+            max-width: 300px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .items{
+            background-color: coral;
+            color: black;
+            text-align: center;
+            margin: 5px;
+            border: 1px solid black;
+        }
+
+        .bauto{
+            flex-basis: auto;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+
+        .fg-2{
+            flex-grow: 2;       
+        }
+
+        .zero{
+            flex-basis: 0;
+        }
+
+        .w100{
+            flex-basis: 100px;
+        }
+    </style>
+
+<body>
+    
+    <p>auto</p>
+    <div class="container">
+        <div class="items bauto fg-1">A</div>
+        <div class="items bauto fg-2">BBB</div>
+        <div class="items bauto fg-1">C</div>
+        <div class="items bauto fg-1">DEF</div>
+    </div>
+
+    <p>0 (zero)</p>
+    <div class="container">
+        <div class="items zero fg-1">A</div>
+        <div class="items zero fg-2">BBB</div>
+        <div class="items zero fg-1">C</div>
+        <div class="items zero fg-1">DEF</div>
+    </div>
+
+    <p>basis + width</p>
+    <div class="container">
+        <div class="items w100 fg-2">AAAAAA</div>
+        <div class="items w100 fg-2">BBBas</div>
+        <div class="items w100 fg-1">Casd</div>
+        <div class="items w100 fg-1">DasdEF</div>
+    </div>
+
+</body>
+</html>
