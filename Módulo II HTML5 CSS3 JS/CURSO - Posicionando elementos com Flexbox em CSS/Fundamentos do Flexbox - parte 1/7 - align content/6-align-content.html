@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+
+
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid black;
+        }
+
+        .item{
+            background-color: forestgreen;
+            padding: 0 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            margin: 5px;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+        .flexstart{
+            align-items: flex-start;
+        }
+        .flexend{
+            align-items: flex-end;
+        }
+        .spacebetween{
+            align-content: space-between;
+        }
+        .spacearound{
+            align-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">Neque  quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div>
+        <div class="item"> quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div>
+        <div class="item">Neque porro  est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div>
+        <div class="item">Neque  qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div>
+        <div class="item"> adipisci velit...</div>
+        <div class="item">N qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div>
+        <div class="item">Nrem ipsum quia dolor sit amet, consectetur, adipisci velit...</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Neque  quiia dolor sit amet, consectetur, adipisci velit...</div>
+        <div class="item"> quisquam est qui met, consectetur, adipisci velit...</div>
+        <div class="item">Neque porro  est ctetur, adipisci velit...</div>
+        <div class="item">Neque  qui doloremetur, adipisci velit...</div>
+        <div class="item"> adipisci velit...</div>
+        <div class="item">N qui doloremsectetur, adipisci velit...</div>
+        <div class="item">Nrem ipsum quia dolor  adipisci velit...</div>
+    </div>
+
+    <p>flex start</p>
+    <div class="container flexstart">
+        <div class="item">Nia dolor sit amet, consectetur, adipisci velit...</div>
+        <div class="item"> quisquama dolor sit amet, consectetur, adipisci velit...</div>
+        <div class="item">Neque porrom quia dolor sit amet, consectetur, adipisci velit...</div>
+        <div class="item">Neque , adipisci velit...</div>
+        <div class="item"> adipisci velit...</div>
+        <div class="item">N qui dolorem ipsum q adipisci velit...</div>
+        <div class="item">Nrem ipsum q, adipisci velit...</div>
+    </div>
+
+    <p>flex end</p>
+    <div class="container flexend">
+        <div class="item">Neqtetur, adipisci velit...</div>
+        <div class="item"> quisquam sectetur, adipisci velit...</div>
+        <div class="item">Neque porro  est qui doloreor sit amet, consectetur, adipisci velit...</div>
+        <div class="item">Neque  qui dolorem ipsumectetur, adipisci velit...</div>
+        <div class="item"> adipisci velit...</div>
+        <div class="item">N qui dolorem ipsetur, adipisci velit...</div>
+        <div class="item">Nrem ipsum quia it...</div>
+    </div>
+
+    <p>space between</p>
+    <div class="container spacebetween">
+        <div class="item">Neque  qt, consectetur, adipisci velit...</div>
+        <div class="item"> quisquam est qui ddipisci velit...</div>
+        <div class="item">Neque porro  esur, adipisci velit...</div>
+        <div class="item">Neque  quectetur, adipisci velit...</div>
+        <div class="item"> adipisci velit...</div>
+        <div class="item">N qui dur, adipisci velit...</div>
+        <div class="item">Nrem iadipisci velit...</div>
+    </div>
+
+    <p>space around</p>
+    <div class="container spacearound">
+        <div class="item">Neq, consectetur, adipisci velit...</div>
+        <div class="item"> quisq consectetur, adipisci velit...</div>
+        <div class="item">Neque porrotur, adipisci velit...</div>
+        <div class="item">Neque  quidipisci velit...</div>
+        <div class="item"> adipisci velit...</div>
+        <div class="item">N qui doloremci velit...</div>
+        <div class="item">Nrem ipsum ci velit...</div>
+    </div>
+
+
+</body>
+</html>
